@@ -41,3 +41,10 @@ end
 
 Rake::ExtensionTask.new('Console', spec) do |ext|
 end
+
+namespace :gem do
+  desc 'Create win32console.gemspec'
+  task(:dump_spec) do
+    File.open("win32console.gemspec", "w") { |file| file << spec.to_ruby }
+  end
+end
