@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{win32console}
-  s.version = "1.2.0"
+  s.version = "1.2.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Original Library by Gonzalo Garramuno, Gem by Justin Bailey"]
