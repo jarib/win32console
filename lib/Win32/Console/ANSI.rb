@@ -1,3 +1,4 @@
+# encoding: binary
 #
 # Win32::Console::ANSI
 #
